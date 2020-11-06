@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  FirstVC.swift
 //  LearningCoordinators
 //
 //  Created by FeedMyTummy on 11/4/20.
@@ -7,13 +7,14 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class FirstVC: UIViewController {
+    
+    var coordinator: FirstCoordinator?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        view.backgroundColor = .green
     }
-
-
+    
 }
-
